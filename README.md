@@ -1,4 +1,4 @@
-# guia — agente de OpenCode
+# arquitect — agente de OpenCode
 
 Agente primario para OpenCode V2 que **analiza el proyecto, ejecuta comandos y
 consulta la base de datos**, pero **no escribe código**. Su trabajo es decirte
@@ -26,14 +26,14 @@ Copia el agente a tu configuración global:
 
 ```sh
 mkdir -p ~/.config/opencode/agents
-cp opencode/agents/guia.md ~/.config/opencode/agents/guia.md
+cp opencode/agents/arquitect.md ~/.config/opencode/agents/arquitect.md
 ```
 
 O instálalo solo para un proyecto:
 
 ```sh
 mkdir -p .opencode/agents
-cp opencode/agents/guia.md .opencode/agents/guia.md
+cp opencode/agents/arquitect.md .opencode/agents/arquitect.md
 ```
 
 OpenCode detecta el archivo al guardarlo. Si el selector no lo muestra, ejecuta
@@ -41,7 +41,7 @@ OpenCode detecta el archivo al guardarlo. Si el selector no lo muestra, ejecuta
 
 ## Uso
 
-1. `Shift+Tab` hasta `guia`, o `/agents` y selecciónalo.
+1. `Shift+Tab` hasta `arquitect`, o `/agents` y selecciónalo.
 2. Pídele el cambio: *"agrega validación de email al registro"*.
 3. Te responde con el fragmento, la ubicación y el porqué.
 4. Lo pegas tú.
@@ -92,6 +92,6 @@ Las reglas SQL se evalúan sobre el texto del comando, en minúsculas y mayúscu
 ## Estructura
 
 ```
-opencode/agents/guia.md   # definición del agente
+opencode/agents/arquitect.md   # definición del agente
 README.md                 # este archivo
 ```
