@@ -1,4 +1,5 @@
-# arquitect
+# ARQUITECT
+
 
 > Analiza tu proyecto, ejecuta comandos y consulta la base de datos — pero **tú pegas el código**.
 
