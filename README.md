@@ -104,8 +104,8 @@ muestra, ejecuta `/reload`.
    selecciónalo.
 2. Pídele el cambio —por ejemplo: *"agrega validación de email al registro"*.
 3. Te responde con el fragmento de código, la ubicación exacta y el porqué.
-4. Pegas el código tú.
-5. Le dices *"listo"* y el agente relee el archivo para verificar antes de
+4. Escribes el código tú.
+6. Le dices *"listo"* y el agente relee el archivo para verificar antes de
    continuar.
 
 ## 📝 Formato de respuesta
